@@ -22,15 +22,21 @@ One of the technical problems is the false rate is pretty high for a single fram
 # Register Known Faces
 
 * first, copy `data/known_faces/` to `facenet/src/align/tmp`
-` cd facenet`
-`$ ./copy_known_faces.sh`
+```
+$ cd facenet
+$ ./copy_known_faces.sh
+```
 
 * run `register.py`
-`$ python register.py ../model/facenet/20180402-114759 src/align/tmp/known_faces`
+```
+$ python register.py ../model/facenet/20180402-114759 src/align/tmp/known_faces
+```
 
 * two files will be created which include the generated embeddings of each known faces.
-`$ ls *.npy`
-`embeddings.npy	label_strings.npy`
+```
+$ ls *.npy`
+embeddings.npy	label_strings.npy
+```
 
 # Figure out who attended and who didn't
 
