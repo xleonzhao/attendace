@@ -1,4 +1,4 @@
-# Face-Recognition Based Automatic Meeting Attendance Tracking System (自动点名系统)
+# Face-Recognition-Based Attendance Tracking System (自动点名系统)
 
 This demo shows how to use Google's Facenet and other open-source software to build a meeting attendance tracking system. Given a video feed or a video file, and a set of photos of known people, this application will scan frames from the video input and check who attend the meeting and who are absent.
 
